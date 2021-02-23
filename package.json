@@ -1,15 +1,26 @@
 {
-    "name": "note-taker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "MIT",
-    "dependencies": {
-      "express": "^4.16.4"
-    }
-  }
-  
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Link to deployed application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaortisi6/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaortisi6/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/jaortisi6/Note-Taker#readme"
+}
