@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(__dirname));
 
 //get routes 
-require('./routes/routes')(app);
+require('routes/routes.js')(app);
 
 //make server listen 
 app.listen(PORT, function() {
