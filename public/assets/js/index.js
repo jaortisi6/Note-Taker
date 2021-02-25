@@ -39,13 +39,13 @@ var renderActiveNote = function() {
   if (typeof activeNote.id === "number") {
     $noteTitle.attr("readonly", true);
     $noteText.attr("readonly", true);
-    $noteTitle.val(activeNote.title);
-    $noteText.val(activeNote.text);
+    $noteTitle.value = activeNote.title;
+    $noteText.value = activeNote.text;
   } else {
     $noteTitle.attr("readonly", false);
     $noteText.attr("readonly", false);
-    $noteTitle.val("");
-    $noteText.val("");
+    $noteTitle.value = "";
+    $noteText.value = "";
   }
 };
 
